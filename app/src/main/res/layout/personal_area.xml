@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="320dp"
+        android:layout_height="101dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="24dp"
+        android:background="#F8F8F8"
+        android:clickable="false"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/sdff"
+        android:layout_width="212dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center_horizontal|top"
+        android:text="+7 (383) 200-00-00"
+        android:textColor="@color/cft"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sda" />
+
+    <TextView
+        android:id="@+id/sda"
+        android:layout_width="160dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="40dp"
+        android:gravity="center_horizontal|top"
+        android:text="Ваш деловой номер"
+        android:textColor="@color/cft"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="320dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="40dp"
+        android:text="Позвонить с этого номера"
+        app:cornerRadius="13dp"
+        app:icon="@android:drawable/ic_menu_call"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sda5" />
+
+    <View
+        android:id="@+id/view4"
+        android:layout_width="140dp"
+        android:layout_height="101dp"
+        android:layout_marginStart="224dp"
+        android:layout_marginTop="36dp"
+        android:alpha="0.13"
+        android:background="#733FE1"
+        android:clickable="false"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view2" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="140dp"
+        android:layout_height="101dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="36dp"
+        android:background="#F8F8F8"
+        android:clickable="false"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view2" />
+
+    <TextView
+        android:id="@+id/sda2"
+        android:layout_width="101dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="14dp"
+        android:gravity="center_horizontal|top"
+        android:text="Исходящие мин."
+        android:textColor="@color/cft"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@+id/view"
+        app:layout_constraintTop_toTopOf="@+id/view" />
+
+    <TextView
+        android:id="@+id/sda4"
+        android:layout_width="160dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="44dp"
+        android:gravity="center_horizontal|top"
+        android:text="Обновлено"
+        android:textAlignment="textStart"
+        android:textColor="@color/cft"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view" />
+
+    <TextView
+        android:id="@+id/sdff3"
+        android:layout_width="120dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal|top"
+        android:text="∞"
+        android:textAlignment="center"
+        android:textColor="#733FE1"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/view4"
+        app:layout_constraintTop_toBottomOf="@+id/sda3" />
+
+    <TextView
+        android:id="@+id/sda5"
+        android:layout_width="160dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="122dp"
+        android:layout_marginTop="44dp"
+        android:gravity="center_horizontal|top"
+        android:text="22 декабря, в 11:20"
+        android:textColor="#733FE1"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view" />
+
+    <TextView
+        android:id="@+id/sda3"
+        android:layout_width="101dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="14dp"
+        android:gravity="center_horizontal|top"
+        android:text="Входящие мин."
+        android:textColor="@color/cft"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@+id/view4"
+        app:layout_constraintTop_toTopOf="@+id/view4" />
+
+    <TextView
+        android:id="@+id/sdff2"
+        android:layout_width="120dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal|top"
+        android:text="282 мин."
+        android:textAlignment="center"
+        android:textColor="@color/cft"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/view"
+        app:layout_constraintTop_toBottomOf="@+id/sda2" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="285dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="56dp"
+        android:text="Добрый день, Username!"
+        android:textAlignment="center"
+        android:textColor="@color/cft"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="186dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="112dp"
+        android:layout_marginTop="20dp"
+        android:text="Деловой звонок"
+        android:textAlignment="center"
+        android:textColor="@color/cft"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/back"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/settings"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
